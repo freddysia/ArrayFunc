@@ -47,7 +47,7 @@ var newArray1 = [{
 }];
 //1,5
 
-function SelectBetter(C) {
+function selectBetter(C) {
     for (var i = 0; i < C.length; i++) {
         var member = C[i];
         if (IDS.indexOf(member.id) < 0) {
@@ -98,8 +98,8 @@ function removeDuplicate(C){
     }
     return members;
 }
-SelectBetter(newArray);
-SelectBetter(newArray1);
+selectBetter(newArray);
+selectBetter(newArray1);
 
 var C = [{
     id:1,
